@@ -1,0 +1,121 @@
+body{
+  font-family: Montserrat, normal;
+  background-color: #E5E5E5;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  
+}
+
+
+.logo{
+  width: 106px;
+  height: 40px;
+  margin: 15px auto;
+}
+
+.menu {
+  display: flex;
+  margin: auto;
+}
+
+.menu__top {
+  margin: auto 0 ;
+  padding: 0;
+  
+}
+
+.menu__top > li {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu__top a {
+  display: block;
+  white-space: nowrap;
+  margin-left: -1px;
+  padding: 8px 10px;
+  color: #0088cc;
+  
+}
+
+.menu__top .menu__sub {
+  position: absolute;
+  left: 10px;
+  display: none;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__sub a {
+  background: #FFFFFF;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu__top .menu__sub a {
+  margin-bottom: -1px;
+  border: 1px solid #e5e5e5;
+}
+
+.menu__top > li:hover .menu__sub {
+  display: block;
+}
+
+.menu a:visited {
+  font-weight: bold;
+  color: rgba(31, 32, 65, 0.75);
+  
+} 
+.menu a:hover {
+  font-weight: bold;
+  color: rgba(31, 32, 65, 0.75);
+  
+}
+
+ul li:hover .menu__sub {
+  display: block;
+}
+
+.profile {
+  margin: auto;
+} 
+
+button {
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  padding: 9px 20px 10px 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  
+}
+
+button:hover {
+  background: transparent;
+  color: #BC9CFF;
+  border-color: #BC9CFF;
+  
+}
+
